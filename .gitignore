@@ -1,0 +1,31 @@
+# Credentials and machine-local configuration
+.env
+.env.*
+!.env.example
+.claude/
+.agents/
+
+# Python caches and local tooling state
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Mutable workflow artifacts and local source material
+bak/
+work/
+input/
+output/
+surfer/
+
+# Retired per-post scripts are not part of the runnable workflow
+legacy/
+
+# OS and editor noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
